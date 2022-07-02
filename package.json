@@ -10,5 +10,10 @@
   },
   "keywords": [],
   "author": "warugaki",
-  "license": "MIT"
+  "license": "MIT",
+  "browserslist": [
+    "defaults",
+    "not IE 11",
+    "maintained node versions"
+  ]
 }
