@@ -1,0 +1,10 @@
+{
+  "name": "static-site-generator-minimum",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+  },
+  "keywords": [],
+  "author": "warugaki",
+  "license": "MIT"
+}
