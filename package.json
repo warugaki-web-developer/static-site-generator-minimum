@@ -14,7 +14,9 @@
     "build": "cross-env NODE_ENV=prod run-s build:*",
     "build:css": "postcss \"./src/**/!(_)*.css\" --base src --dir ./dist --ext css",
     "build:eleventy": "npx @11ty/eleventy",
-    "debug": "DEBUG=* npx eleventy"
+    "debug": "DEBUG=* npx eleventy",
+    "lint:prettier": "prettier --check --ignore-path .gitignore .",
+    "fix:prettier": "prettier --write --ignore-path .gitignore ."
   },
   "keywords": [],
   "author": "warugaki",
@@ -32,6 +34,7 @@
     "postcss": "8.4.14",
     "postcss-cli": "10.0.0",
     "postcss-import": "14.1.0",
+    "prettier": "2.7.1",
     "rimraf": "3.0.2"
   }
 }

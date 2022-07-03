@@ -1,9 +1,9 @@
 module.exports = {
   plugins: [
-    require("postcss-import"),
-    require("autoprefixer")({
+    require('postcss-import'),
+    require('autoprefixer')({
       cascade: false,
-      grid: "autoplace",
+      grid: 'autoplace',
     }),
   ],
 };

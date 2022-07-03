@@ -1,10 +1,9 @@
 module.exports = function (eleventyConfig) {
-
-  eleventyConfig.addGlobalData("permalink", () => {
+  eleventyConfig.addGlobalData('permalink', () => {
     return (data) => `${data.page.filePathStem}.${data.page.outputFileExtension}`;
   });
 
-  eleventyConfig.addPassthroughCopy("src/**/*.js");
+  eleventyConfig.addPassthroughCopy('src/**/*.js');
 
   return {
     dir: {
