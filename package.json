@@ -17,8 +17,10 @@
     "debug": "DEBUG=* npx eleventy",
     "lint:prettier": "prettier --check --ignore-path .gitignore .",
     "lint:eslint": "eslint --ignore-path .gitignore . --ext .js",
+    "lint:stylelint": "stylelint --ignore-path .gitignore **/*.css",
     "fix:prettier": "prettier --write --ignore-path .gitignore .",
-    "fix:eslint": "eslint --fix --ignore-path .gitignore . --ext .js"
+    "fix:eslint": "eslint --fix --ignore-path .gitignore . --ext .js",
+    "fix:stylelint": "stylelint --fix --ignore-path .gitignore **/*.css"
   },
   "keywords": [],
   "author": "warugaki",
@@ -41,6 +43,10 @@
     "postcss-cli": "10.0.0",
     "postcss-import": "14.1.0",
     "prettier": "2.7.1",
-    "rimraf": "3.0.2"
+    "rimraf": "3.0.2",
+    "stylelint": "14.9.1",
+    "stylelint-config-prettier": "9.0.3",
+    "stylelint-config-recess-order": "3.0.0",
+    "stylelint-config-standard": "26.0.0"
   }
 }
